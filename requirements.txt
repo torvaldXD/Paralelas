@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+joblib
+ray[serve]
+fastapi
+uvicorn
+streamlit
+requests
