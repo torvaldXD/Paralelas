@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  api:
+    build: ./api
+    ports:
+      - "8502:8502"
+  
+  cliente:
+    build: ./cliente
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
